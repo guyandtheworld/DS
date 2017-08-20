@@ -1,6 +1,5 @@
 #include "charstack.h"
 
-
 charstack::charstack(int stacksize) :
 	StackSize(stacksize),
 	Element(new char[stacksize]),
