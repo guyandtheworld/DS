@@ -32,10 +32,10 @@ class FirstLastList
 			return (pFirst==NULL); 
 		} 
 
-		void insertLast(double dd)        //insert at end of list 
+		void insertLast(double dd)
 		{ 
-			Link* pNewLink = new Link(dd); //make new link 
-			if( isEmpty())                //if empty list, 
+			Link* pNewLink = new Link(dd); 
+			if( isEmpty()) 
 				pFirst = pNewLink;          //first --> newLink 
 			else 
 				pLast->pNext = pNewLink;    //old last --> newLink 
@@ -64,3 +64,5 @@ class FirstLastList
 
 
 };
+
+
